@@ -65,7 +65,7 @@ To have a better grasp of how JavaScript's engine handles sync and async code, i
 
 These functions are provided by the browser's web API. `setTimeout` allows you to wait for an amout of miliseconds untill executing a block of code.
 
-`setInterval` will execute a block of code every defined amount miliseconds.
+`setInterval` will execute a block of code every defined amount of miliseconds.
 
 In the following example you can observe how synchronous code always runs first, and then all of the asynchronous code runs. Every time that the `setTimeout` timers expire, they execute their respective callbacks from within.
 
@@ -153,7 +153,7 @@ Each time a user interacts with a website or application, **events** are fired. 
 
 To handle events through javascript we can use [event listeners](https://www.w3schools.com/js/js_htmldom_eventlistener.asp#:~:text=The%20addEventListener()%20method%20allows%20you%20to%20add%20event%20listeners,events%2C%20like%20the%20xmlHttpRequest%20object.). These event listeners are always checking for an specific event to occur. Whenever an event is detected, a callback is executed. Inside of this callback we can perform any action we want, like transform an image, change a text o add an animation to our application.
 
-For example let's take the following html:
+For example let's take a look at the following html:
 
 ```javascript
 // 4-index.html
@@ -186,6 +186,8 @@ const button = document.getElementById('myButton');
 const paragraph = document.getElementById('myParagraph')
 
 button.addEventListener('click', (e) => {
+  // event listeners ALWAYS receive an 'e' or 'event' object.
+  // we can get a lot of information about the detonated event by exploring 'e'
   console.log(e.target.value);
   console.log('The button was clicked! ✅')
 
