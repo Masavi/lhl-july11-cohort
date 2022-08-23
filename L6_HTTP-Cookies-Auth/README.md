@@ -1,6 +1,10 @@
-# W3D3 - User Authentication with Express
+# HTTP Cookies and Authentication
 
-## http is stateless
+## Topics to cover
+
+1. How HTTP is stateless
+2. HTTP Cookies
+3. Login and Register process
 
 ### What do we mean by statelessness?
 
