@@ -1,0 +1,76 @@
+/*
+  CSS Selectors
+*/
+
+/* GLOBAL Selector*/
+* {
+  box-sizing: border-box;
+}
+
+/* ELEMENT Selectors*/
+img {
+  width: 300px; border: 5px solid black;
+}
+
+main {
+  background-color: bisque;
+}
+
+/* CLASS Selectors*/
+.my-paragraph {
+  color: aqua;
+}
+
+/* ID Selectors*/
+#other-paragraph {
+  text-decoration: underline;
+}
+
+#my-image {
+  border: 10px groove green;
+}
+     
+
+/*
+  WORKING WITH FLEXBOX
+*/
+
+/* PARENT = FLEX CONTAINER */
+.parent {
+  background-color: gray;
+  height: 800px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+/* CHILDREN = FLEX ITEMS */
+.child-1 {
+  width: 150px;
+  height: 150px;
+  background-color: skyblue;
+  order: 4;
+  flex-grow: 4;
+}
+.child-2 {
+  width: 150px;
+  height: 150px;
+  background-color: green;
+  order: 3;
+  flex-grow: 1;
+}
+.child-3 {
+  width: 150px;
+  height: 150px;
+  background-color: crimson;
+  order: 2;
+  flex-grow: 10;
+}
+.child-4 {
+  width: 150px;
+  height: 150px;
+  background-color: yellow;
+  order: 1;
+  flex-grow: 1;
+}
