@@ -1,0 +1,65 @@
+/*
+  2) IMPORT
+*/
+/*
+  1) Variables
+*/
+h1, .my-custom-header {
+  font-size: 32px;
+  color: coral;
+}
+
+h2 {
+  font-size: 24px;
+  color: coral;
+}
+
+p {
+  font-size: 16px;
+  color: red;
+  border: 2px groove purple;
+}
+
+/*
+  3) NESTING
+*/
+div {
+  height: 200px;
+  width: 200px;
+}
+div:hover {
+  background-color: bisque;
+}
+div p {
+  font-size: 24px;
+}
+div p span {
+  font-size: 18px;
+}
+div a {
+  color: aquamarine;
+}
+div a:hover {
+  color: orange;
+}
+
+/*
+  4) EXTEND
+*/
+.my-custom-header {
+  background-color: azure;
+  text-align: center;
+}
+
+/*
+  5) MIXINS
+*/
+.my-header {
+  font-size: 64px;
+  color: brown;
+}
+
+.my-second-header {
+  font-size: 32px;
+  color: gray;
+}

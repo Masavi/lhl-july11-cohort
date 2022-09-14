@@ -1,0 +1,83 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 32px;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 50px;
+}
+
+header {
+  height: 160px;
+  background-color: coral;
+}
+
+section {
+  border: 2px solid black;
+  font-size: 14px;
+}
+
+section div {
+  /*
+    em works in relationship to the font-size
+    of the parent element
+  */
+  font-size: 1rem;
+
+  /*
+    ABSOLUTE UNITS
+    px, cm, mm, in
+  */
+  height: 10em;
+
+  /*
+    RELATIVE UNITS
+    percentage (%) -> related to the parent element
+
+    viewport width (vw) -> related to the viewport
+    viewport height (vh) -> related to the viewport
+    
+    em -> font-size unit related to the parent element
+    rem -> font-size unit related to the ROOT (html) element
+  */
+  width: 20vw;
+  min-width: 100px;
+  max-width: 200px;
+
+  margin: 20px;
+  line-height: 150px;
+  display: inline-block;
+  background-color: lightpink;
+  text-align: center;
+}
+
+footer {
+  background-color: burlywood;
+  height: 150px;
+}
+
+@media only screen and (min-width: 400px) {
+
+  section {
+    background-color: red;
+  }
+
+}
+
+@media only screen and (min-width: 800px) {
+
+  section {
+    background-color: green;
+  }
+
+  section div {
+    height: 100px;
+    width: 100px;
+  }
+  
+}
