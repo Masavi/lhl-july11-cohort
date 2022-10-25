@@ -1,0 +1,25 @@
+.counter-container {
+  height: 125px;
+  width: 500px;
+  margin: 16px auto;
+  padding: 24px 0;
+  background-color: beige;
+}
+
+.counter-container span{
+  color: white;
+  padding: 4px;
+  border-radius: 5px;
+}
+
+.counter-container div {
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  width: 300px;
+  height: 40px;
+}
+
+.counter-container div button {
+  margin: 10px 6px;
+}
