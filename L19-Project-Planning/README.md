@@ -29,6 +29,10 @@ There are all sorts of projects that may begin for any number of reasons. Consid
 
 As long as you can reach the goal in within the time range you give yourself, you can manage a project however works best for you. You can also follow any of the already defined project methodologies. There are esentially two schools of thought: **traditional methodologies** and **agile methodologies**.
 
+![image](https://user-images.githubusercontent.com/13715191/207442647-b3fd7f32-beb9-46ed-a776-787feb56a92c.png)
+
+The Traditional approach is linear where all the phases of a process occur in a sequence. The Agile management gives prominence to teamwork, customer collaboration, and flexibility, working on many iterations instead of one big iteration.
+
 #### Traditional methodologies
 
 Traditional project management is an established methodology where projects are run in a sequential cycle: initiation, planning, execution, monitoring, and closure. The traditional project management approach emphasizes linear processes, documentation, upfront planning, and prioritization.
@@ -53,7 +57,11 @@ Examples of agile frameworks are: **Scrum, Kanban, Extreme Programming and Lean 
 ### 4. The planning process
 ---
 
-For any given programming project, regardless of which methodology you will be following, you have to tackle the analysis and design of the system first. You can follow the next steps to achieve this: 
+For any given programming project, regardless of which methodology you will be following, you have to tackle the analysis and design of the system first. You should always take into consideration the [Iron Triangle of project management](https://en.wikipedia.org/wiki/Project_management_triangle) (scope, time and cost for the given project), as this restraints will always guide what you will try to accomplish:
+
+![image](https://user-images.githubusercontent.com/13715191/207442837-7c74138d-e9c4-4e22-bb20-cb291f721755.png)
+
+You can follow the next steps to achieve your goal: 
 
 1. User Stories (Extract Nouns / Tables)
 2. Wireframes (Consider use of Figma) [and Design]
