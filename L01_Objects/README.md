@@ -163,3 +163,11 @@ ogPerson.age = 26;
 console.log(ogPerson)    // { name: "maui", age: 26 }
 console.log(personCopy)  // { name: "maui", age: 26 }
 ```
+
+### Immutable vs Mutable
+
+The reason we have pass-by-value and pass-by-ref comes to JavaScript’s data & structure types. These can all be thrown into one of these two categories: 
+- **Primitive values are immutable**
+- **...and almost everything else is mutable**
+
+With mutable being *prone to change*, and immutable being *not capable of or susceptible to change*.
